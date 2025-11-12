@@ -1,6 +1,6 @@
-# 🚀 Employee Management Software
+# 🚀 Library Management Software
 
-A Python-based project built for my Class 12 board exam. It uses **CSV files**, **Pandas**, and **Matplotlib** to manage employee records — add, update, delete, and visualize data with ease. It's scalable, cleanly coded, and a great introduction to data handling and visualization.
+A Python-based project built for my friend Class 12 board exam. It uses **CSV files**, **Pandas**, and **Matplotlib** to manage employee records — add, update, delete. It's scalable, cleanly coded, and a great introduction to data handling and visualization.
 
 ---
 
