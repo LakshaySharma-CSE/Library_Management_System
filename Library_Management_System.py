@@ -11,6 +11,8 @@ print("Enter 1 to add new Book Record")
 print("Enter 2 to remove Book Record")
 print("Enter 3 to search Book Detail BY Book Name")
 print("Enter 4 to update Book Record")
+print("---------------------------------")
+print("Enter 5 for Data Visualization")
 
 task = int(input("Enter Your Task: "))
 
@@ -77,3 +79,25 @@ elif task == 4:
         print(df)
     else:
         print("BOOk ID not found.")
+elif task == 5:
+     print("***********Data-Visulization**********")
+     print("Data Visulization Is Only Available In Book Name & Issue Date")
+     print("This just To Find The Trending Books")
+     print("Enter 1 For Bar-Graph")
+     print("Enter 2 For Line-Graph")
+graph = int(input("Enter Your Graph Type"))
+
+if graph == 1:
+    print("Printing Bar-Graph ...............")
+    plt.bar(df['BookName'],df['IssueDate'],color='b')
+    plt.xlabel("BOOK NAME")
+    plt.ylabel("ISSUE DATE")
+    plt.title("Data Visulization in Book Name and Issue Date")
+    plt.show()
+elif graph == 2:
+     print("Printing Bar-Graph ...............")
+     plt.bar(df['BookName'],df['IssueDate'],color='b')
+     plt.xlabel("BOOK NAME")
+     plt.ylabel("ISSUE DATE")
+     plt.title("Data Visulization in Book Name and Issue Date")
+     plt.show()
